@@ -3,6 +3,15 @@
 
 int main(void){
 
+/*
+DM - 25Mar22
+
+Code created as part of an assignment for the coursera course - C for Everyone - Programming Fundamentals
+Code designed to print a table giving the Sine and Cosine of values between 0 and 1
+
+*/
+
+
 double interval;
 double end_val = 1, calc_input = 0, sin_out = 0, cos_out = 0;   //Added and end value so user can decide what value ot finish checking sin calculation
 int num_of_cycles = 30;                                         //Improves readabilty and Can now decide the number of time the calculations will be carried out
